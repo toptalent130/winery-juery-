@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <form class="form-inline" action="/action_page.php">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <div class="btn btn-success" type="submit">Search</div>
+    </form>
+    </nav>
+    <br>
+    <div class="container-fluids">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="container_a text-center">
+                    <H1 id="myHeader">SETTING</H1>
+                    <div class="setting">
+                        <form>
+                            <label for="browser" style="color:white">Choose the <b>Price</b> you are looking for:</label>
+                            <input list="browsers" name="browser" id="browser">
+                            <datalist id="browsers">
+                                <option value="less than 100$">
+                                <option value="100$~1000$">
+                                <option value="1000$~5000$">
+                                <option value="5000$~-10000$">
+                                <option value="greater than 10000$">
+                            </datalist>
+                            <input type="submit" value="Ok">
+                        </form>
+                        <hr>
+                        <form>
+                            <label for="browser1" style="color:white">Choose the <b>Year</b> you are looking for:</label>
+                            <input list="browsers1" name="browser1" id="browser1">
+                            <datalist id="browsers1">
+                                <option value="~1996">
+                                <option value="1997">
+                                <option value="1998">
+                                <option value="1999">
+                                <option value="2020~">
+                            </datalist>
+                            <input type="submit" value="Ok">
+                        </form>
+                        <hr>
+                        <form>
+                            <label for="browser2" style="color:white">Choose the <b>Color</b> you are looking for:</label>
+                            <input list="browsers2" name="browser2" id="browser2">
+                            <datalist id="browsers2">
+                                <option value="red">
+                                <option value="white">
+                                <option value="black">
+                                <option value="yellow">
+                                <option value="pink">
+                            </datalist>
+                            <input type="submit" value="Ok">
+                        </form>
+                        <hr>
+                        <form>
+                            <label for="browser2" style="color:white">Choose the <b>Wine%</b> you are looking for:</label>
+                            <input list="browsers2" name="browser2" id="browser2">
+                            <datalist id="browsers2">
+                                <option value="~30%">
+                                <option value="45%">
+                                <option value="55%">
+                                <option value="70%">
+                                <option value="80%~">
+                            </datalist>
+                            <input type="submit" value="Ok">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7"></div>
+            <div class="col-lg-2">
+                <div class="container_c text-center">
+                    <H1 id="myHeader">COUNTRIES</H1>
+                    <div class="countries">
+                        <ul>
+                            <li id="italy">Italy</li>
+                            <li id="france">France</li>
+                            <li id="spain">Spain</li>
+                            
+                            <li>Burundi</li>
+                            <li></li>
+                            <li>Cabo Verde</li>
+                            <li>Cambodia</li>
+                            <li>Cameroon</li>
+                            <li>Canada</li>
+                            <li>Central African Republic</li>
+                            <li>Burkina Faso</li>
+                            <li>Chad</li>
+                            <li>Chile</li>
+                            <li>China</li>
+                            <li>Colombia</li>
+                            <li>Comoros</li>
+                            <li>Congo</li>
+                            <li>Democratic Republic of Congo</li>
+                            <li>Costa Rica</li>
+                            <li>Cote d’Ivoire</li>
+                            <li>Croatia</li>
+                            <li>Cuba</li>
+                            <li>Cyprus</li>
+                            <li>Czech Republic</li>
+                            <li></li>
+                            <li>Denmark</li>
+                            <li>Djibouti</li>
+                            <li>Dominica</li>
+                            <li>Dominican Republic</li>
+                            <li>    </li>
+                            <li>Ecuador</li>
+                            <li>Egypt</li>
+                            <li>El Salvador</li>
+                            <li>Equatorial Guinea</li>
+                            <li>Eritrea</li>
+                            <li>Estonia</li>
+                            <li>Ethiopia</li>
+                            <li></li>
+                            <li>Fiji</li>
+                            <li>Finland</li>
+                            <li>France</li>
+                            <li></li>
+                            <li>Gabon</li>
+                            <li>Gambia<li>
+                            <li>Georgia</li>
+                            <li>Germany</li>
+                            <li>Ghana</li>
+                            <li>Greece</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w3-padding-64 w3-content w3-text-grey" style="margin-top:300px;color:black" id="contact">
+        <h2 class="">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+    
+        <div class="w3-section">
+          <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+          <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+        </div><br>
+        <p>Let's get in touch. Send me a message:</p>
+    
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+          <p>
+            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      <!-- End Contact Section -->
+      </div>
+      
+        <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <!-- End footer -->
+      </footer>
+    
+    <script>
+        $(document).ready(()=>{
+            $('.container_c').animate({opacity:1},'slow');
+            $('.container_a').animate({opacity:1},'slow');
+            $("#italy").click(()=>{
+                var temp = $('body');
+                temp.css('background-image','url("./images/countries/italy.jpg")');
+                var wineryPanels = $('div.col-lg-7');
+                wineryPanels.html('<div class="container_b text-center">\
+                                        <H1>WINERIES</H1>\
+                                        <div class="wineries">\
+                                            <ul>\
+                                                <li>\
+                                                    <a href="https://www.frederickwildman.com/producers/marchesi-di-barolo/" target="_black">\
+                                                        <div class="row">\
+                                                            <div class="col-lg-3">\
+                                                                <img src="./images/italy/winery_italy1.jpg">\
+                                                            </div>\
+                                                            <div class="col-lg-7">\
+                                                                <ul>\
+                                                                    <li><h4>Marchesi di Barolo</h4></li>\
+                                                                    <li><p>Barolo is possibly one of the most renowned and best-quality wines in Italy. A hearty red, Barolo draws its name from the town in which it is produced, situated in the Langhe area and protected by gentle hills. Established in the early 19th century, the winery Marchesi di Barolo is still a family business, handed down for five generations and enjoying the protection of the Alps in the north and the Apennines in the south. This makes the climate particularly temperate and mild and allows the grapes to prosper.</p></li>\
+                                                                    <li><h6>price:3000$</h4></h6>\
+                                                                </ul>\
+                                                            </div>\
+                                                        </div>\
+                                                    </a>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/italy/winery_italy2.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Antica Cascina dei Conti di Roero</h4></li>\
+                                                                <li><p>Vezza d’Alba, where this winery is located, is a truly historic area for wine-making in Italy. The aristocratic family of Roero used to cultivate this land even in the 18th century, before the business was taken over by the current managers, the Olivero family, in the 1950s. With 15ha (37 acres) of vineyards to count on, this ancient farmstead will show any tourist that the province of Cuneo and the region of Piedmont have much more to offer than just mountains and the Shroud of Turin.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/italy/winery_italy3.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Redaelli de Zinis</h4></li>\
+                                                                <li><p>Located on Lake Garda, Redaelli de Zinis is a winery that is committed to avoiding machinery in the production of its wines and to employing environmentally friendly techniques so as not to affect the natural scenery surrounding Desenzano del Garda. It possesses about 1,200sqm (13,000sqft) of vineyards, and its history goes as far back as the 18th century, with a tradition covering five generations of the de Zinis family. All the produce is DOC – of controlled origin – which guarantees great quality and an unmistakable flavour.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/italy/winery_italy4.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Marchesi De Frescobaldi</h4></li>\
+                                                                <li><p>Frescobaldi is a family that has been devoted to wine production for 30 generations and 700 years. Consequently, this is the historic winery of Tuscany par excellence. Marchesi de’ Frescobaldi possesses five discrete units where wine is produced, scattered from north to south Tuscany, in Pomino, Nipozzano, Castiglioni, Castelgiocondo and Ammiraglia. Any tourist who happens to be in this wonderful Italian region should take some time out of their busy schedule in order to enjoy a visit to this spot.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/italy/winery_italy5.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Azienda Agricola Valentini</h4></li>\
+                                                                <li><p>A family business, Azienda Agricola Valentini is located in Loreto Aprutino, in the province of Pescara in the Abruzzo region. This winery and farm have been here for centuries, with activity dating back to the first half of the 16th century. It has received a number of awards throughout the ages thanks to the quality of its produce, be it wine, olive oil or vinegar. Most of its wine production is centred upon Trebbiano and Montepulciano d’Abruzzo, but it covers other sorts of labels too.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                            </ul>\
+                                        </div>\
+                                    </div>\
+                                ')
+                $('.container_b').css('display','block');
+                $('.container_b').animate({height:'600px',opacity:1},'slow')
+            })
+            $("#france").click(()=>{
+                var temp = $('body');
+                temp.css('background-image','url("./images/countries/france.jpg")');
+                var wineryPanels = $('div.col-lg-7');
+                $('.container_b').remove();
+                wineryPanels.html('<div class="container_b text-center">\
+                                        <H1>WINERIES</H1>\
+                                        <div class="wineries">\
+                                            <ul>\
+                                                <li>\
+                                                    <a href="https://www.winepaths.com/wine/france/bordeaux/chateau-pape-clement-winery" target="_black">\
+                                                        <div class="row">\
+                                                            <div class="col-lg-3">\
+                                                                <img src="./images/france/winery_france1.jpg">\
+                                                            </div>\
+                                                            <div class="col-lg-7">\
+                                                                <ul>\
+                                                                    <li><h4>Château Pape Clément</h4></li>\
+                                                                    <li><p>Located in Pessac, Château Pape Clément is one of the oldest wineries of Bordeaux and recently celebrated its 700th harvested vintage. The Château gets its name from Pope Clement V, its most famous owner. Wines range from Cabernet Sauvignon to Merlot, but there are also small quantities of white wine grapes, such as Sauvignon Blanc. This vineyard was formally a pioneering estate: it was one of the first in France to plant vines in rows, as opposed to the usual plots being scattered around the estates. Château Pape Clément is now one of the best known wines of France.</p></li>\
+                                                                    <li><h6>price:3000$</h4></h6>\
+                                                                </ul>\
+                                                            </div>\
+                                                        </div>\
+                                                    </a>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/france/winery_france2.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Château Roubine</h4></li>\
+                                                                <li><p>In the classic wine-making region, Provence, lies Château Roubine. This is one of the oldest wine estates in France, dating back to the 1400s. The architectural style here is classically representative of the Provence area. The château and the gardens are influenced by the roubine (‘stream’ in English) and the name highlights the importance of water for the area. The château and vineyard are built between the sea and the Verdon River, while at the same time a natural stream runs through the middle of it, helping the drainage and irrigation. Surrounded by pine trees and the stream, relax in the Provençal outdoors with a glass of wine and enjoy the long summer days.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/france/winery_france3.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Château de Pitray</h4></li>\
+                                                                <li><p>Owned by the same family for over six hundred years, Château de Pitray is located about an one hour away from Bordeaux, in the beautiful wine area of Saint Émilion. It features the grape varieties of Merlot and Cabernet Franc, and it covers more than 74 acres of vines, producing 240,000 bottles of wine per year. The beautiful Château de Pitray dates back to the 15th century.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/france/winery_france4.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Château Lafite-Rothschild</h4></li>\
+                                                                <li><p>Around the corner from Cos d’Estournel is Château Lafite-Rothschild. It is one of the biggest wine estates in the area, featuring over 100 hectares of vines in the Médoc region, in the little village of Pauillac. Cabernet Sauvignon and Merlot are the most predominant grape varieties that can be found here. The earliest known reference to this place was in the 13th century, with a reference to the then owner, Lafite. Lafite comes from old Gascon dialect, meaning ‘small hill’. The property has been owned by many people over the ages, and it is composed of several buildings, or smaller châteaux. It was in 1868 that the famous Rothschild family bought the estate for 4.4 million francs and since then, it has increased it has continued to increase its wine production.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/france/winery_france5.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Château Canet</h4></li>\
+                                                                <li><p>The Languedoc-Roussillon region is well known for its wines. The region is mainly comprised of small vineyards, one of which is Château Canet. Forty-five hectares of vines and also a few of olive trees can be found here. This venue is a little more modern than other vineyards you might visit. The Mediterranean warmth of the region not only leads to different types of wine but has also inspired different architecture, bringing in a more southern style château.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                            </ul>\
+                                        </div>\
+                                    </div>\
+                                ')
+                $('.container_b').css('display','block');
+                $('.container_b').animate({height:'600px',opacity:1},'slow')
+            })
+            $("#spain").click(()=>{
+                var temp = $('body');
+                temp.css('background-image','url("./images/countries/spain.jpg")');
+                var wineryPanels = $('div.col-lg-7');
+                $('.container_b').remove();
+                wineryPanels.html('<div class="container_b text-center">\
+                                        <H1>WINERIES</H1>\
+                                        <div class="wineries">\
+                                            <ul>\
+                                                <li>\
+                                                    <a href="https://www.citytoursbarcelona.com/english/wineries/the-torres-wine-estate" target="_black">\
+                                                        <div class="row">\
+                                                            <div class="col-lg-3">\
+                                                                <img src="./images/spain/winery_spain1.jpg">\
+                                                            </div>\
+                                                            <div class="col-lg-7">\
+                                                                <ul>\
+                                                                    <li><h4> Bodegas Torres – Vilafranca del Penedès.</h4></li>\
+                                                                    <li><p>Torres is the most admired wine brand in the world according to Drinks International. Located in Vilafranca del Penedès, but with many other wineries worldwide of their property, Torres is a familiar business that has been growing generation by generation since 1870. In their installations, they offer a lot of activities related to enotourism and want to expand the culture of wine to all the wine lovers who visit them.</p></li>\
+                                                                    <li><h6>price:3000$</h4></h6>\
+                                                                </ul>\
+                                                            </div>\
+                                                        </div>\
+                                                    </a>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/spain/winery_spain2.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Dinastia Vivanco – Briones, La Rioja</h4></li>\
+                                                                <li><p>Located in Briones in La Rioja Alta, Vivanco is a functional winery which was built underground so as to keep as much the vineyard surface area as possible, to minimise the environmental impact and preserve the beautiful landscape of La Rioja.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/spain/winery_spain3.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4> Bodegas Protos – Peñafiel, Castilla y León</h4></li>\
+                                                                <li><p>In the heart of Ribera del Duero, at the foot of the mountain near the castle of Peñafiel, you can find Bodegas Protos, one of the best wineries in Spain. They claim to be the first Spanish winery to reflect an attitude of innovation and high-quality.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/spain/winery_spain4.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Marqués de Murrieta – Logroño, La Rioja/h4></li>\
+                                                                <li><p>Barolo is possibly one of the most renowned and best-quality wines in Italy...</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                                <li>\
+                                                    <div class="row">\
+                                                        <div class="col-lg-3">\
+                                                            <img src="./images/spain/winery_spain5.jpg">\
+                                                        </div>\
+                                                        <div class="col-lg-7">\
+                                                            <ul>\
+                                                                <li><h4>Marchesi di Barolo</h4></li>\
+                                                                <li><p>Marqués de Murrieta is one of the most famous wineries in Spain due to its connection to Spanish history. The founder, Don Luciano Murrieta and García- Lemoine, produced (and exported) the first fine wine from Rioja in 1852. After his trip to Bordeaux he was inspired by the concept of French château to create the Ygay Castle around the 300 acres of vineyards of their property, recently reopened after several years closed for rehabilitation.</p></li>\
+                                                                <li><h6>price:3000$</h4></h6>\
+                                                            </ul>\
+                                                        </div>\
+                                                    </div>\
+                                                </li>\
+                                            </ul>\
+                                        </div>\
+                                    </div>\
+                                ')
+                $('.container_b').css('display','block');
+                $('.container_b').animate({height:'600px',opacity:1},'slow')
+            })
+            
+        })
+    </script>
+</body>
+</html>
